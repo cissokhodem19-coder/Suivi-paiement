@@ -29,6 +29,30 @@ Application mobile PWA de suivi des paiements pour usage personnel et organisati
       --danger: #ff4757;
       --success: #2ed573;
       --warning: #ffa502;
+      {
+  "name": "Suivi des Paiements",
+  "short_name": "Paiements",
+  "description": "Application de suivi des paiements pour votre organisation",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
       --info: #70a1ff;
       --radius: 16px;
       --radius-sm: 10px;
